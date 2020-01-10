@@ -1,6 +1,7 @@
 body {
     width: 480px;
     text-align: center;
+    margin: auto;
 }
 
 header {
@@ -20,25 +21,28 @@ article {
 }
 
 .section2 {
+    height: 480px;
+    width: 100%;
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: 240px2;
     grid-template-rows: 2;
 }
 
 .section2 > div {
     /* grid-template-columns: 2;
     grid-template-rows: 2; */
-    height: 250px;
-    width: 240px;
+    /* height: 250px;
+    width: 240px; */
     
 }
 
 
-/* @media screen and (min-width: 768px) {
+@media (min-width: 1200px) {
     
     body {
-        width: 768px;
+        width: 1200px;
         text-align: center;
+        margin: auto;
     }
     
     header {
@@ -80,4 +84,4 @@ article {
         line-height: 150px;
     }
 
-} */
+}
